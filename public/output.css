@@ -730,6 +730,14 @@ video {
   border-radius: 9999px;
 }
 
+.border{
+  border-width: 1px;
+}
+
+.border-r{
+  border-right-width: 1px;
+}
+
 .bg-blue{
   --tw-bg-opacity: 1;
   background-color: rgb(44 188 233 / var(--tw-bg-opacity));
@@ -963,6 +971,11 @@ body,
 .before\:max-w-\[400px\]::before{
   content: var(--tw-content);
   max-width: 400px;
+}
+
+.before\:max-w-\[600px\]::before{
+  content: var(--tw-content);
+  max-width: 600px;
 }
 
 .before\:rounded-full::before{
