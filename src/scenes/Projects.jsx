@@ -25,7 +25,7 @@ const Project = ({title, subtitle}) => {
                 {subtitle}
                 </p>
             </div>
-            <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+            <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} className="h-64"/>
         </motion.div>
     )
 }
@@ -54,9 +54,7 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam
-          tempor orci eu lobortis elementum. Cursus turpis massa tincidunt dui.
+          Here are some projects that I have worked on!
         </p>
       </motion.div>
 
@@ -74,7 +72,7 @@ const Projects = () => {
             <div className="flex justify-center text-center items-center p-10 bg-red max-width-[400px] text-2xl font-playfair font-semibold">
                 BEAUTIFUL USER INTERFACES
             </div>
-            <Project title="Project 1" subtitle="hello from the other side" />
+            <Project title="Project 1" subtitle="Website to raise awareness and provide supportive tools for mental health." />
             <Project title="Project 2" />
 
             {/* ROW 2 */}
