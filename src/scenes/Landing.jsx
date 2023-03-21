@@ -31,7 +31,7 @@ const Landing = ({setSelectedPage}) => {
                             </span>
                         </p>
                         <p className="mt-10 mb-7 text-sm text:center md:text-start">
-                        Aspiring software developer that loves problem-solving and has a passion for techonology. I am ready to embark on an amazing journey in tech and would love the opportunity to build something together!
+                        Aspiring software developer that loves problem-solving and has a passion for techonology. I am ready to embark on an amazing journey in tech and would love the opportunity to build products collaboratively!
                         </p>
                     </motion.div>
 
