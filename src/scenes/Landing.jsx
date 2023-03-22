@@ -25,12 +25,13 @@ const Landing = ({setSelectedPage}) => {
                     <motion.div initial="hidden" whileInView="visible" viewport= {{ once: true, amount: 0.5}} transition={{ duration: 0.5 }} variants={{ hidden: {opacity: 0, x: -50}, visible: 
                 { opacity: 1, x: 0}}}>
                         <p className="text-6xl font-playfair z-10 text-center md:text-start">
-                            Atif {" "}
-                            <span className="xs: relative xs:text-deep-blue xs: font-semibold z-20 xs:before:content-brush before:absolute before:-left-[35px] before:-top-[120px] before:z-[-1]">
+                            Atif {""}
+                            <span className="xs:relative xs:text-white xs: font-semibold z-20 before:absolute before:-left-[35px] before:-top-[120px] before:z-[-1]">
                                 Hussaini
                             </span>
+                            {/*xs:before:content-brush*/}
                         </p>
-                        <p className="mt-10 mb-7 text-sm text:center md:text-start">
+                        <p className="mt-10 mb-7 text-sm text-center md:text-center">
                         Aspiring software developer that loves problem-solving and has a passion for techonology. I am ready to embark on an amazing journey in tech and would love the opportunity to build products collaboratively!
                         </p>
                     </motion.div>

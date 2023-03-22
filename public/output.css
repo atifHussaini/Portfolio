@@ -750,6 +750,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-52{
+  margin-top: 13rem;
+}
+
 .flex{
   display: flex;
 }
@@ -802,6 +806,14 @@ video {
   height: 16rem;
 }
 
+.h-5{
+  height: 1.25rem;
+}
+
+.h-20{
+  height: 5rem;
+}
+
 .w-3{
   width: 0.75rem;
 }
@@ -832,6 +844,18 @@ video {
 
 .w-2\/5{
   width: 40%;
+}
+
+.w-80{
+  width: 20rem;
+}
+
+.w-10{
+  width: 2.5rem;
+}
+
+.w-1{
+  width: 0.25rem;
 }
 
 .max-w-\[400px\]{
@@ -1061,6 +1085,10 @@ video {
   text-align: center;
 }
 
+.text-justify{
+  text-align: justify;
+}
+
 .font-opensans{
   font-family: Open Sans, sans-serif;
 }
@@ -1102,6 +1130,27 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[14px\]{
+  font-size: 14px;
+}
+
+.text-\[100px\]{
+  font-size: 100px;
+}
+
+.text-\[25px\]{
+  font-size: 25px;
+}
+
+.text-\[50px\]{
+  font-size: 50px;
+}
+
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .font-bold{
@@ -1281,9 +1330,19 @@ body,
   left: 0.25rem;
 }
 
+.before\:-top-\[10px\]::before{
+  content: var(--tw-content);
+  top: -10px;
+}
+
 .before\:z-\[-1\]::before{
   content: var(--tw-content);
   z-index: -1;
+}
+
+.before\:z-\[1\]::before{
+  content: var(--tw-content);
+  z-index: 1;
 }
 
 .before\:-ml-\[110px\]::before{
@@ -1364,6 +1423,11 @@ body,
   content: var(--tw-content);
 }
 
+.before\:content-brush::before{
+  --tw-content: url('./assets/brush.png');
+  content: var(--tw-content);
+}
+
 .hover\:bg-blue:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(44 188 233 / var(--tw-bg-opacity));
@@ -1421,9 +1485,42 @@ body,
 }
 
 @media (min-width: 480px){
+  .xs\:fixed{
+    position: fixed;
+  }
+
+  .xs\:absolute{
+    position: absolute;
+  }
+
+  .xs\:relative{
+    position: relative;
+  }
+
+  .xs\:w-1{
+    width: 0.25rem;
+  }
+
+  .xs\:w-10{
+    width: 2.5rem;
+  }
+
+  .xs\:text-center{
+    text-align: center;
+  }
+
+  .xs\:text-justify{
+    text-align: justify;
+  }
+
   .xs\:text-deep-blue{
     --tw-text-opacity: 1;
     color: rgb(1 0 38 / var(--tw-text-opacity));
+  }
+
+  .xs\:text-white{
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
   .xs\:before\:content-brush::before{
@@ -1443,6 +1540,10 @@ body,
 
   .sm\:grid-cols-1{
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .sm\:text-center{
+    text-align: center;
   }
 }
 
@@ -1505,6 +1606,10 @@ body,
 
   .md\:text-left{
     text-align: left;
+  }
+
+  .md\:text-center{
+    text-align: center;
   }
 
   .md\:text-start{

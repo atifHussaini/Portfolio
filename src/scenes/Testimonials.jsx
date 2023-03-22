@@ -43,11 +43,11 @@ const Testimonials = () => {
           }}
           >
             <p className="font-playfair text-6xl">"</p>
-            <p className="text-center text-xl">Kind, charming and hard-working.</p>
+            <p className="text-center text-xl">He once helped save a cat from a tree.</p>
           </motion.div>
 
           <motion.div
-          className={`bg-red ${testimonialStyles} before:content-person2`}
+          className={`bg-red ${testimonialStyles} before:content-person3`}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -58,11 +58,11 @@ const Testimonials = () => {
           }}
           >
             <p className="font-playfair text-6xl">"</p>
-            <p className="text-center text-xl">He helped save a cat from a tree once.</p>
+            <p className="text-center text-xl">He let me borrow his 1990 Toyota Camry to go to prom. Thanks again!</p>
           </motion.div>
 
           <motion.div
-          className={`bg-yellow ${testimonialStyles} before:content-person3`}
+          className={`bg-yellow ${testimonialStyles} before:content-person2`}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -73,7 +73,7 @@ const Testimonials = () => {
           }}
           >
             <p className="font-playfair text-6xl">"</p>
-            <p className="text-center text-xl">He let me borrow his 1990 Toyota Camry to go to prom. Thanks again!</p>
+            <p className="text-center text-xl">Kind, charming and hard-working.</p>
           </motion.div>
         </div>
         </section>
