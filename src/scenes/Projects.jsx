@@ -74,7 +74,7 @@ const Projects = () => {
             </div> */}
             <Project title="Project 1" subtitle="Website to raise awareness and provide supportive tools for mental health!" />
             <br></br>
-            <Project title="Project 2" subtitle="Fun game where teams of 5 NBA players battle against one another!"/>
+            <Project title="Project 2" subtitle="Fun game where two teams of NBA players battle against one another!"/>
             <br></br>
             <Project title="Project 3" subtitle="Ecommerce website specializing in selling albums!"/>
 

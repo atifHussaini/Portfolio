@@ -43,7 +43,7 @@ const Testimonials = () => {
           }}
           >
             <p className="font-playfair text-6xl">"</p>
-            <p className="text-center text-xl">He is such an amazing person</p>
+            <p className="text-center text-xl">Kind, charming and hard-working.</p>
           </motion.div>
 
           <motion.div
@@ -58,7 +58,7 @@ const Testimonials = () => {
           }}
           >
             <p className="font-playfair text-6xl">"</p>
-            <p className="text-center text-xl">He saved a cat from a tree once</p>
+            <p className="text-center text-xl">He helped save a cat from a tree once.</p>
           </motion.div>
 
           <motion.div
@@ -73,7 +73,7 @@ const Testimonials = () => {
           }}
           >
             <p className="font-playfair text-6xl">"</p>
-            <p className="text-center text-xl">He let me borrow his Ferrari to go to prom</p>
+            <p className="text-center text-xl">He let me borrow his 1990 Toyota Camry to go to prom. Thanks again!</p>
           </motion.div>
         </div>
         </section>

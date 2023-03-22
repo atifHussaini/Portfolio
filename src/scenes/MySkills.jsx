@@ -25,10 +25,7 @@ const MySkills = (props) => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam
-            tempor orci eu lobortis elementum. Cursus turpis massa tincidunt
-            dui.
+            Here are some of the many technologies that I am familiar with!
           </p>
         </motion.div>
         <div className="mt-16 md:mt-0">
@@ -47,10 +44,10 @@ const MySkills = (props) => {
       </div>
 
       {/* SKILLS */}
-      <div className="md:flex md:justify-between mt-16 gap-32">
-        {/* EXPERIENCE */}
+      <div className="md:flex md:justify-between mt-2 gap-32">
+        {/* JAVASCRIPT */}
         <motion.div
-          className="md:w-1/3 mt-20"
+          className="md:w-1/3 mt-32"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -64,20 +61,19 @@ const MySkills = (props) => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Experience
+                JavaScript
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
             <p className="mt-12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Understanding in this programming language to create interactive web applications.
             </p>
           </div>
         </motion.div>
 
-        {/* INNOVATIVE */}
+        {/* REACT/REDUX */}
         <motion.div
-          className="md:w-1/3 mt-20"
+          className="md:w-1/3 mt-32"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -91,21 +87,19 @@ const MySkills = (props) => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Innovative
+                React-Redux
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
             <p className="mt-12">
-              Volutpat blandit aliquam etiam erat velit scelerisque. Urna nunc
-              id cursus metus aliquam eleifend mi in. Bibendum at varius vel
-              pharetra vel.
+              Knowledge in building dynamic and interative UI's by utilizing component-based architecture, while using a predictable state-management system.
             </p>
           </div>
         </motion.div>
 
-        {/* IMAGINATIVE */}
+        {/* HTML5/CSS */}
         <motion.div
-          className="md:w-1/3 mt-20"
+          className="md:w-1/3 mt-32"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -119,14 +113,12 @@ const MySkills = (props) => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                Imaginative
+                HTML5/CSS3
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
             <p className="mt-12">
-              Ultrices vitae auctor eu augue ut lectus. Sit amet nisl purus in.
-              Ut morbi tincidunt augue interdum velit euismod in pellentesque.
-              Purus non enim praesent elementum facilisis leo.
+              Ability to create visually appealing designs that are accessible, responsive, and optimized for performance.
             </p>
           </div>
         </motion.div>
