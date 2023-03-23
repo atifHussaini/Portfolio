@@ -43,7 +43,7 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <p className="text-6xl font-playfair z-10 text-center md:text-center">
-            Atif Hussaini
+            Atif <span className="bg-gradient-rainbow">Hussaini</span>
             {/* <span className="xs:relative xs:text-white xs: font-semibold z-20 xs:before:content-brush before:absolute before:-left-[35px] before:-top-[120px] before:z-[-1]">
               
             </span> */}
