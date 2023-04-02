@@ -61,7 +61,7 @@ const Projects = () => {
       {/* PROJECTS */}
       <div className="flex justify-center">
         <motion.div
-          className="sm:grid sm:grid-cols-1"
+          className="sm:grid sm:grid-cols-2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -73,10 +73,9 @@ const Projects = () => {
                 BEAUTIFUL USER INTERFACES
             </div> */}
             <Project title="Project 1" subtitle="Website to raise awareness and provide supportive tools for mental health!" />
-            <br></br>
             <Project title="Project 2" subtitle="Fun game where two teams of NBA players battle against one another!"/>
-            <br></br>
             <Project title="Project 3" subtitle="Ecommerce website specializing in selling albums!"/>
+            <Project title="Project 4" subtitle="Travel advisor app to locate restaurants, hotels and attractions near you!"/>
 
             {/* ROW 2 */}
             {/* <Project title="Project 3" />
