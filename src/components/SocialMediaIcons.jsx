@@ -12,7 +12,7 @@ const SocialMediaIcons = () => {
             <a className="hover:opacity-50 transition duration-500" href="https://github.com/atifhussaini" target="_blank" rel="noreferrer">
                 <img alt="github-link" src="../assets/github.png" className="h-10"/>
             </a>
-            <a className="hover:opacity-50 transition duration-500" href="https://facebook.com/crazy1ndn" target="_blank" rel="noreferrer">
+            <a className="hover:opacity-50 transition duration-500" href="https://facebook.com/ahussaini314" target="_blank" rel="noreferrer">
                 <img alt="facebook-link" src="../assets/facebook.png" className="h-10"/>
             </a>
             <a className="hover:opacity-50 transition duration-500" href="https://instagram.com/atifhussaini_" target="_blank" rel="noreferrer">
