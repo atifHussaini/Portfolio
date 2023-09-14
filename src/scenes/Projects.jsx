@@ -76,6 +76,7 @@ const Projects = () => {
             <Project title="Project 2" subtitle="Fun game where two teams of NBA players battle against one another!"/>
             <Project title="Project 3" subtitle="Ecommerce website specializing in selling albums!"/>
             <Project title="Project 4" subtitle="Travel advisor app to locate restaurants, hotels and attractions near you!"/>
+            <Project title="Project 5" subtitle="Sneakerheads need to check out the latest Nike shoes!" />
 
             {/* ROW 2 */}
             {/* <Project title="Project 3" />
