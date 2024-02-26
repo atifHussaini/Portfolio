@@ -70,7 +70,7 @@ const Contact = () => {
             <form
             target="_blank"
             onSubmit={onSubmit}
-            action="https://formsubmit.co/960c30eabaf2b9ae259aeeb8e7e25aac"
+            action="https://formsubmit.co/ahussaini314@gmail.com"
             method="POST"
             >
                 <input 
